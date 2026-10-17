@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_CAD",
+  "granularity": "M1",
+  "chunk_start": "2006-11-01",
+  "chunk_end": "2006-11-30",
+  "parquet_file": "OANDA_XAUCAD_GoldCAD_1_2006-11-01_to_2006-11-30.parquet",
+  "data_file": "OANDA_XAUCAD_GoldCAD_1_2006-11-01_to_2006-11-30.parquet",
+  "row_count": 32140,
+  "first_candle": {
+    "time": 1162339200,
+    "Time": "2006-11-01T00:00:00.000000000Z",
+    "open": 680.6,
+    "high": 680.6,
+    "low": 680.6,
+    "close": 680.6,
+    "volume": 7
+  },
+  "last_candle": {
+    "time": 1164931140,
+    "Time": "2006-11-30T23:59:00.000000000Z",
+    "open": 739.14,
+    "high": 739.14,
+    "low": 739.14,
+    "close": 739.14,
+    "volume": 4
+  },
+  "csv_file": "OANDA_XAUCAD_GoldCAD_1_2006-11-01_to_2006-11-30.parquet",
+  "csv_row_count": 32140,
+  "csv_first_candle": {
+    "time": 1162339200,
+    "Time": "2006-11-01T00:00:00.000000000Z",
+    "open": 680.6,
+    "high": 680.6,
+    "low": 680.6,
+    "close": 680.6,
+    "volume": 7
+  },
+  "csv_last_candle": {
+    "time": 1164931140,
+    "Time": "2006-11-30T23:59:00.000000000Z",
+    "open": 739.14,
+    "high": 739.14,
+    "low": 739.14,
+    "close": 739.14,
+    "volume": 4
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:30:54.000000000Z",
+  "generated_at": "2026-10-16T02:30:54.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2165,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2006-10-31T11:55:00Z",
+        "to": "2006-11-03T23:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-11-03T23:15:00Z",
+        "to": "2006-11-07T10:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-11-07T10:35:00Z",
+        "to": "2006-11-10T21:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-11-10T21:55:00Z",
+        "to": "2006-11-14T09:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-11-14T09:15:00Z",
+        "to": "2006-11-17T20:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-11-17T20:35:00Z",
+        "to": "2006-11-21T07:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-11-21T07:55:00Z",
+        "to": "2006-11-24T19:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-11-24T19:15:00Z",
+        "to": "2006-11-28T06:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-11-28T06:35:00Z",
+        "to": "2006-12-01T17:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
